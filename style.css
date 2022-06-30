@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #75D8AF;
+    background: -webkit-radial-gradient(bottom, #75D8AF, #5A1DB3);
+    background: -moz-radial-gradient(bottom, #75D8AF, #5A1DB3);
+    background: radial-gradient(to top, #75D8AF, #5A1DB3);
+    background-size: cover;
+}
+
+body.main {
+    height: 100vh;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 4rem;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    text-decoration: underline;
+
+}
+
+.main-item a {
+    text-decoration: none;
+    cursor: pointer;
+    color: #fff;
+}
+
+a:hover {
+    color: lightcoral;
+    text-decoration: underline;
+}
+
+.main-item {
+    padding: 30px 20px;
+    margin: auto;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.main-item:first-of-type img {
+    padding: 15px;
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+}
+
+.main-item:nth-of-type(2) a img {
+    padding: 15px;
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+    align-items: center;
+}
+
+.main-item:nth-of-type(3) img {
+    padding: 15px;
+    width: 200px;
+    height: auto;
+    vertical-align: middle;
+}
+
+/* Recipes */
+
+.test {
+    height: 1609px;
+}
+
+.test2 {
+    height: 2224px;
+}
+
+.test3 {
+    height: 1470px;
+}
+
+.home {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#SeaSalt {
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: #00ffffc0
+}
+
+#Rabanastre {
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: #ffa500;
+}
+
+#Garula {
+    font-size: 3.5rem;
+    text-decoration: none;
+    color: rgba(201, 128, 46, 0.801);
+}
+
+#SeaSaltImg {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#ChickenImg {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+#GarulaImg {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+
+h2 {
+    font-weight: 700;
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.8rem;
+}
+
+p {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+ul li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+ol li {
+    padding: 10px;
+    margin: 10px;
+    font-size: 1.2rem;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    grid-template-rows: auto auto auto;
+    gap: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-1 li {
+    border: 1px solid grey;
+}
+
+.IceSteps li {
+    padding: 10px;
+    margin: 25px 10px;
+    font-size: 1.2rem;
+}
